@@ -18,6 +18,13 @@
   padding: 20px 40px;
   background-color: palegreen;
 }
+.nav::before {
+  content: "PC LAYOUT ONLY";
+  position: absolute;
+  left: 15%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
 .nav__site-logo {
   max-width: 120px;
   max-height: 80px;
