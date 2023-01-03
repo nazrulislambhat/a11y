@@ -1,31 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>A11Y Checklist</title>
-</head>
-<body>
-    <main class='main' id='main'>
+  </head>
+  <body>
     <div class="boxed">
-        <header>
-            <nav class='nav'>
-                <img src='https://via.placeholder.com/128x80.png' alt='site-logo' class='nav__site-logo'>
-                <div class="nav__menu">
-                    <ul class='nav__menu--list'>
-                        <li class='nav__menu--list__item'><a href="#">About Us</a></li>
-                        <li class='nav__menu--list__item'><a href="#">Services</a></li>
-                        <li class='nav__menu--list__item'><a href="#">Career</a></li>
-                        <li class='nav__menu--list__item'><a href="#">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <button class='nav__cta' type='button'>Let's Get Started</button>
-            </nav>
-            
-        </header>
+      <header>
+        <nav class="nav" role="navigation">
+          <img
+            src="/images/Nazrul_Islam-removebg (1).png"
+            alt="site-logo"
+            class="nav__site-logo"
+          />
+          <div class="nav__menu">
+            <ul class="nav__menu--list">
+              <li class="nav__menu--list__item"><a href="#">About Us</a></li>
+              <li class="nav__menu--list__item"><a href="#">Services</a></li>
+              <li class="nav__menu--list__item"><a href="#">Career</a></li>
+              <li class="nav__menu--list__item">
+                <a href="#">Terms & Conditions</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main" id="main">
+        <div class="hero animate__zoomIn">
+          <div class="hero__image animate__jackInTheBox">
+            <img src="/images/Nazrul_Islam-removebg (1).png" alt="" />
+          </div>
+          <div class="hero__info">
+            <h1 class="hero__info-title animate__slideInRight">Nazrul Islam</h1>
+            <p class="hero__info-subtitle animate__slideInRight">
+              Software Engineer | Full Stack Developer
+            </p>
+            <button class="hero__info-cta animate__slideInRight" type="button" role="button">
+              Lets Get Started
+            </button>
+          </div>
+        </div>
+        <div class="services">
+          <div class="services__card">
+            <img
+              src="/programming icons/icons8-css3-480.png"
+              alt=""
+              class="services__card--icon"
+            />
+            <h2 class="services__card--title">CSS</h2>
+            <p class="services__card--description">
+              Cascading Style Sheets is a style sheet language used for
+              describing the presentation of a document written in a markup
+              language such as HTML or XML.
+            </p>
+            <button class="services__card--cta animate__hinge">SERVICES</button>
+          </div>
+          <div class="services__card">
+            <img
+              src="/programming icons/icons8-html-5-480.png"
+              alt=""
+              class="services__card--icon"
+            />
+            <h2 class="services__card--title">HTML</h2>
+            <p class="services__card--description">
+              The HyperText Markup Language or HTML is the standard markup
+              language for documents designed to be displayed in a web browser.
+            </p>
+            <button class="services__card--cta animate__hinge">SERVICES</button>
+          </div>
+          <div class="services__card">
+            <img
+              src="/programming icons/icons8-javascript-480.png"
+              alt=""
+              class="services__card--icon"
+            />
+            <h2 class="services__card--title">JAVASCRIPT</h2>
+            <p class="services__card--description">
+              JavaScript, often abbreviated as JS, is a programming language
+              that is one of the core technologies of the World Wide Web,
+              alongside HTML and CSS.
+            </p>
+            <button class="services__card--cta animate__hinge">SERVICES</button>
+          </div>
+          <div class="services__card">
+            <img
+              src="/programming icons/icons8-react-480.png"
+              alt=""
+              class="services__card--icon"
+            />
+            <h2 class="services__card--title">REACT JS</h2>
+            <p class="services__card--description">
+              React is a free and open-source front-end JavaScript library for
+              building user interfaces based on UI components.
+            </p>
+            <button class="services__card--cta animate__hinge">SERVICES</button>
+          </div>
+        </div>
+      </main>
     </div>
-    </main>
-</body>
+  </body>
 </html>
