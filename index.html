@@ -13,26 +13,6 @@
   </head>
   <body>
     <div class="boxed">
-      <header>
-        <nav class="nav" role="navigation">
-          <img
-            src="/images/Nazrul_Islam-removebg (1).png"
-            alt="site-logo"
-            class="nav__site-logo"
-          />
-          <div class="nav__menu">
-            <ul class="nav__menu--list">
-              <li class="nav__menu--list__item"><a href="#">About Us</a></li>
-              <li class="nav__menu--list__item"><a href="#">Services</a></li>
-              <li class="nav__menu--list__item"><a href="#">Career</a></li>
-              <li class="nav__menu--list__item">
-                <a href="#">Terms & Conditions</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-
       <main class="main" id="main">
         <div class="hero animate__zoomIn">
           <div class="hero__image animate__jackInTheBox">
@@ -43,13 +23,19 @@
             <p class="hero__info-subtitle animate__slideInRight">
               Software Engineer | Full Stack Developer
             </p>
-            <button class="hero__info-cta animate__slideInRight" type="button" role="button">
+            <button
+              class="hero__info-cta animate__slideInRight"
+              type="button"
+              role="button"
+              id="cta"
+              onclick="ctaClick();"
+            >
               Lets Get Started
             </button>
           </div>
         </div>
-        <div class="services">
-          <div class="services__card">
+        <div class="services background-change">
+          <div class="services__card background-2">
             <img
               src="/programming icons/icons8-css3-480.png"
               alt=""
@@ -63,7 +49,7 @@
             </p>
             <button class="services__card--cta animate__hinge">SERVICES</button>
           </div>
-          <div class="services__card">
+          <div class="services__card background-2">
             <img
               src="/programming icons/icons8-html-5-480.png"
               alt=""
@@ -106,5 +92,6 @@
         </div>
       </main>
     </div>
+    <script src="/ts/main.js"></script>
   </body>
 </html>
