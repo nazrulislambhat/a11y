@@ -13,6 +13,20 @@
   </head>
   <body>
     <div class="boxed">
+      <header class="header">
+        <img src="/images/Nazrul_Islam-removebg (1).png" class="header__logo" />
+        <nav class="nav, hide" id="nav">
+          <ul class="nav__items hideMobile">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="/">Contact</a></li>
+            <li class="nav-item"><a href="/">About</a></li>
+            <li class="nav-item"><a href="/">Career</a></li>
+            <li class="nav-item"><a href="/">Terms</a></li>
+          </ul>
+        </nav>
+        <button class="toggleOpen, show" id="toggleOpen" onclick="openMenu()">Menu</button>
+        <button class="toggleClose, hide" id="toggleClose" onclick="closeMenu()">Close</button>
+      </header>
       <main class="main" id="main">
         <div class="hero animate__zoomIn">
           <div class="hero__image animate__jackInTheBox">
@@ -141,10 +155,8 @@
             </p>
             <button class="services__card--cta animate__hinge">SERVICES</button>
           </div>
-
-
-
         </div>
+        <!--
         <div class="slider">
           <div class="images">
           <img class="image" src="/images/image1.jpg" />
@@ -160,6 +172,7 @@
           <button class="next">Next</button>
         </div>
         </div>
+        -->
       </main>
     </div>
     <script src="/ts/main.js"></script>
